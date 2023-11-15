@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+@media only screen and (max-width: 390px) {
+    .fancy2, .fancy3 {
+        display: none !important;
+    }
+}
 
 @media only screen and (max-width: 800px) {
     .logo {
