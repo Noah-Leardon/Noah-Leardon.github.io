@@ -4,6 +4,15 @@
     margin: 0;
 }
 
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 510px) {
     .fancy2, .fancy3 {
         display: none !important;
@@ -74,6 +83,7 @@ nav {
 
 .logo {
     padding-left: 6rem;
+    animation: transitionIn 0.5s;
 }
 
 .logo h2 {
@@ -92,9 +102,11 @@ nav h3 {
     border-radius: 15px;
     font-weight: 400;
     cursor: pointer;
+    animation: transitionIn 0.9s;
 }
 
 ul {
+    animation: transitionIn 0.7s;
     display: flex;
     list-style: none;
     padding: 1rem;
@@ -127,8 +139,8 @@ main {
 .desc {
     display: flex;
     flex-flow: column wrap;
-
     padding: 6rem;
+    animation: transitionIn 1.1s;
 }
 
 .desc h1 {
