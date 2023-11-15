@@ -91,13 +91,6 @@ nav h3 {
     cursor: pointer;
 }
 
-nav h3:hover {
-    background: linear-gradient(to left, navy, white);
-    background-clip: text;
-    color: transparent;
-    transition: all 0.5s;
-}
-
 nav ul {
     display: flex;
     list-style: none;
