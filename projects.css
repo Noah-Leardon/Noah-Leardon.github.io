@@ -79,9 +79,7 @@ nav {
 
 .logo h4 {
     font-weight: 300;
-    background: white;
-    color: transparent;
-    background-clip: text;
+    color: white;
 }
 
 nav h3 {
@@ -117,10 +115,9 @@ a {
 }
 
 a:hover {
-    color: transparent;   
-    background: linear-gradient(to left, navy, white);
-    background-clip: text;
+    color: gray;   
     transition: all 0.3s;
+    text-decoration: underline;
 }
 
 main {
