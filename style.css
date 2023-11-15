@@ -4,9 +4,12 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 510px) {
     .fancy2, .fancy3 {
         display: none !important;
+    }
+    html {
+        font-size: 10px !important;
     }
 }
 
@@ -124,8 +127,8 @@ main {
 .desc {
     display: flex;
     flex-flow: column wrap;
-    width: 50%;
-    padding: 8rem;
+
+    padding: 6rem;
 }
 
 .desc h1 {
@@ -137,7 +140,8 @@ main {
 }
 
 .desc h3 {
-    line-height: 3em;
+    margin-top: 2rem;
+    line-height: 1.5em;
     font-weight: 300;
     font-size: 2rem;
     text-align: center;

@@ -4,9 +4,12 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 675px) {
-    .desc h1 {
-        font-size: 2rem !important;
+@media only screen and (max-width: 510px) {
+    .fancy2, .fancy3 {
+        display: none !important;
+    }
+    html {
+        font-size: 10px !important;
     }
 }
 
@@ -126,6 +129,10 @@ h1 {
     letter-spacing: -0.2rem;
     font-weight: 500;
     border-bottom: 2px white solid;
+}
+
+h2 {
+    text-align: center;
 }
 
 .fancy {
