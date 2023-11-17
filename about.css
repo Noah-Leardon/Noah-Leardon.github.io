@@ -181,6 +181,10 @@ main {
     margin-top: 1rem;
 }
 
+#one, #two, #see-less{
+    display: none;
+}
+
 .about-me {
     display: flex;
     justify-content: center;
