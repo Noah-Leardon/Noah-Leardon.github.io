@@ -13,9 +13,9 @@
     }
 }
 
-@media only screen and (max-width: 790px) {
-    h1 {
-        font-size: 0.5rem !important;
+@media only screen and (max-width: 655px) {
+    html {
+        font-size: 10px !important;
     }
 }
 
@@ -25,9 +25,6 @@
     }
     html {
         font-size: 10px !important;
-    }
-    h1 {
-        font-size: 0.8rem;
     }
 }
 
@@ -133,6 +130,28 @@ main {
     color: white;
     align-items: center;
     justify-content: center;
+}
+
+.connect {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: -0.1rem;
+}
+
+.connect ul {
+    font-size: 2rem;
+}
+
+.connect h2 {
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 .fancy {
